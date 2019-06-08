@@ -16,8 +16,10 @@
 	<div class="container">
 
 		<h1 class="display-2">taste-o-meter</h1>
+		<h3 class="display-3">Films watched: ${count}</h3>
 
-		<form action="/page2">
+
+		<form action="/page4">
 			<table class="table">
 				<tr>
 					<th></th>
@@ -75,7 +77,7 @@
 			</table>
 
 
-			
+			<input type="hidden" value="${count}" name="count" />
 			<button type="submit">Next</button>
 
 		</form>
